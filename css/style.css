@@ -1,0 +1,118 @@
+/* Reset CSS */
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+blockquote,
+body,
+dd,
+dl,
+figure,
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+ol[role=list],
+ul[role=list] {
+    list-style: none;
+}
+
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    background-color: #d9f7ff;
+}
+
+button,
+h1,
+h2,
+h3,
+h4,
+input,
+label {
+    line-height: 1.1;
+    font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-wrap: balance;
+    text-align: center;
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+    color: currentColor;
+}
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+}
+
+textarea:not([rows]) {
+    min-height: 10em;
+}
+
+:target {
+    scroll-margin-block: 5ex;
+}
+
+.hero-section {
+}
+
+.hero-block {
+    height: 100vh;
+    background: linear-gradient(0deg, #5433FF, #20BDFF, #A5FECB);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-section {
+}
+
+.cards-block {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card {
+    background-color: #ffffff;
+    max-width: 2000px;
+    width: 80%;
+    height: 80%;
+    border-radius: 48px;
+    background-position: sticky;
+    margin: 100px;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 33px 42px #7caebb;
+    border: 2px solid #bfd5da;
+}
